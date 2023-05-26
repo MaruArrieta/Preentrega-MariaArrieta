@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.cajaImgPortada {
+    width: auto;
+    height: 500px;
+    margin: 50px;
+    border: 2px solid red;
+    border-radius: 3%;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.cajaImgPortada img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+
+}
+
+
+.caja1 {
+    height: 200px;
+    width: auto;
+    padding: 5px 20px 100px 20px;
+    background-color: rgb(204, 166, 199);
+    margin: 20px 130px;
+    border: 3px double rgb(253, 0, 0);
+    border-radius: 10px;
+
+}
+
+.caja1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+h1 {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+
+body {
+    background-image: url("../images/fondo.jpg");
+    background-position: top center;
+}
+
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 1s0px;
+
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px;
+    text-align: left;
+
+
+}
+
+.nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    background-color: rgb(204, 166, 199);
+    padding: 20px;
+    width: 100%;
+    display: inline-flex;
+    align-items: end;
+    justify-content: right;
+
+
+}
+
+.nav ul li {
+    list-style-type: circle;
+    display: inline;
+    align-items: baseline;
+    justify-content: right;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid #252525;
+    display: flex;
+    align-items: baseline;
+    float: left;
+
+}
+
+
+
+
+/*Hero*/
+.hero {
+
+    display: inline-block;
+    width: 100%;
+
+
+}
+
+.hero img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 10px;
+    border-style: inset;
+    display: flex;
+    align-content: first baseline;
+
+}
+
+.hero_content {
+    display: inline-block;
+    width: 49%;
+    padding: 50px;
+
+
+}
+
+/*Cards-Proyectos*/
+.cards {
+    padding: 50px 15px;
+    text-align: center;
+
+
+}
+
+.card_body img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card_body {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    background-color: rgb(204, 166, 199);
+    padding: 10px;
+    border-style: double;
+    margin: 10px;
+}
+
+.card_body h3,
+.card_body p {
+    padding: 14px;
+
+
+}
+
+/*Img bottom*/
+
+.caja2 img {
+
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    border-radius: 10px;
+    border-style: inset;
+    justify-content: right;
+    align-items: baseline;
+
+
+}
+
+.caja2 p {
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(204, 166, 199);
+    padding: 10px;
+    border-radius: 10px;
+    border-style: inset;
+
+
+}
+
+
+.caja3 p {
+    display: inline-block;
+    width: 100%;
+
+}
+
+/*Wspp*/
+.logo_wsp {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: fixed;
+    bottom: 15px;
+    z-index: 1;
+    right: 15px;
+}
+
+
+/*Footer*/
+
+.icon_footer {
+
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 350px;
+
+
+}
+
+.footer p {
+    text-align: center;
+
+
+}
+
+/*Biografia*/
+
+.biografia {
+    text-align: center;
+}
+
+.imgPerfil {
+    width: 500px;
+    height: 500px;
+    border-radius: 150px;
+    object-fit: cover;
+    border-color: red;
+    border-style: inset;
+    border-radius: 100%;
+    margin: 10px;
+
+}
+
+
+.texto_biografia {
+    display: inline-block;
+    background-color: rgb(204, 166, 199);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: inset;
+
+
+}
+
+.texto p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+.estrellas ul li {
+    list-style-type: circle;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.aptitudes {
+    text-align: center;
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.aptitudes h3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.estrellas {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+
+
+}
+
+.texto_aptitudes {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: rgb(204, 166, 199);
+    border-style: double;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    letter-spacing: 2px;
+
+
+}
+
+
+
+/*Servicios*/
+.caja1_servicios {
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.botones_servicios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 18px;
+    background-color: rgb(204, 166, 199);
+    padding: 20px;
+    font-stretch: narrower;
+    display:inline-block;
+    justify-content: center;
+    align-items: baseline;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    width: 70%;
+    margin-left: 200px;
+
+}
+
+.botones_servicios ul li {
+    list-style-type: circle;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+
+.texto p {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+    background-color: rgb(204, 166, 199);
+    padding: 10px;
+    border-style: double;
+    margin: 10px;
+
+}
+
+/*Contacto*/
+.form {
+    width: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(204, 166, 199);
+
+}
+
+.formulario label {
+    width: 100px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.contacto h2 {
+    text-align: center;
+
+}
